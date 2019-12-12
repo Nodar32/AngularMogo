@@ -1,0 +1,207 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "author": "Matthew Dix",
+      "profession": "Graphic Design",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+      "imgUrl": "assets/peopleSayAvatar/avatar1.png/"
+    },
+    {
+      "id": 2,
+      "author": "Nick Karvounis",
+      "profession": "Graphic Design",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+      "imgUrl": "assets/peopleSayAvatar/avatar2.png/"
+    },
+    {
+      "id": 3,
+      "author": "Mike Petrucci",
+      "profession": "Graphic Design",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+      "imgUrl": "assets/peopleSayAvatar/avatar3.png/"
+    },
+    {
+      "id": 4,
+      "author": "Jaelynn Castillo",
+      "profession": "Graphic Design",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+      "imgUrl": "assets/peopleSayAvatar/avatar4.png/"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "author": "Matthew Dix",
+      "profession": "Graphic Design",
+      "imgUrl": "assets/team1.jpg",
+      "fbUrl": "https://www.facebook.com/123",
+      "twUrl": "https://twitter.com/123",
+      "instUrl": "https://www.instagram.com/123"
+    },
+    {
+      "id": 2,
+      "author": "Saymon Graim",
+      "profession": "Developer",
+      "imgUrl": "assets/team2.jpg",
+      "fbUrl": "https://www.facebook.com/456",
+      "twUrl": "https://twitter.com/456",
+      "instUrl": "https://www.instagram.com/456"
+    },
+    {
+      "id": 3,
+      "author": "Andre Denver",
+      "profession": "Meneger",
+      "imgUrl": "assets/team3.jpg",
+      "fbUrl": "https://www.facebook.com/789",
+      "twUrl": "https://twitter.com/789",
+      "instUrl": "https://www.instagram.com/789"
+    }
+  ]
+  ,
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet",
+      "text": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore!",
+      "imgUrl": "assets/latestBlog/photo1.png",
+      "views": 42,
+      "commentsCounter": 4,
+      "comments": [
+        {
+          "author": "Matthew Dix",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar1.png/"
+        },
+        {
+          "author": "Nick Karvounis",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar2.png/"
+        },
+        {
+          "author": "Mike Petrucci",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar3.png/"
+        },
+        {
+          "author": "Jaelynn Castillo",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar4.png/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "sed do eiusmod tempor",
+      "text": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore!",
+      "imgUrl": "assets/latestBlog/photo2.png",
+      "views": 36,
+      "commentsCounter": 6,
+      "comments": [
+        {
+          "author": "Matthew Dix",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar1.png/"
+        },
+        {
+          "author": "Nick Karvounis",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar2.png/"
+        },
+        {
+          "author": "Mike Petrucci",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar3.png/"
+        },
+        {
+          "author": "Jaelynn Castillo",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar4.png/"
+        },
+        {
+          "author": "Nick Karvounis",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar2.png/"
+        },
+        {
+          "author": "Mike Petrucci",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar3.png/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "incididunt ut labore et dolore",
+      "text": "Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque, consequuntur cumque dolor doloribus eius error eveniet nostrum quam quasi ratione rem sint suscipit, vel. Aliquid at, a velit voluptate!utem beatae cumque, delectus dignissimos dolor dolore excepturi in magni maxime nemo nobis perferendis, placeat quos reiciendis sint soluta tempore!",
+      "imgUrl": "assets/latestBlog/photo3.png",
+      "views": 54,
+      "commentsCounter": 2,
+      "comments": [
+        {
+          "author": "Mike Petrucci",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar3.png/"
+        },
+        {
+          "author": "Jaelynn Castillo",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.",
+          "imgUrl": "assets/peopleSayAvatar/avatar4.png/"
+        }
+      ]
+    }
+  ],
+  "galleryImgs": [
+    {
+      "id": 1,
+      "title": "Elizabet Rigert",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "imgUrl": "assets/portfolio/photo1.png"
+    },
+    {
+      "id": 2,
+      "title": "Matthew Dix",
+      "text": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "imgUrl": "assets/portfolio/photo2.png"
+    },
+    {
+      "id": 3,
+      "title": "Annet Broudi",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "imgUrl": "assets/portfolio/photo3.png"
+    },
+    {
+      "id": 4,
+      "title": "Daymon Ajax",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "imgUrl": "assets/portfolio/photo4.png"
+    },
+    {
+      "id": 5,
+      "title": "Acua Behinx",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "imgUrl": "assets/portfolio/photo5.png"
+    },
+    {
+      "id": 6,
+      "title": "Ipsum Dodet",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "imgUrl": "assets/portfolio/photo1.png"
+    },
+    {
+      "id": 7,
+      "title": "Lorem Ipsum",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "imgUrl": "assets/portfolio/photo2.png"
+    },
+    {
+      "id": 8,
+      "title": "Matthew Dix",
+      "text": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "imgUrl": "assets/portfolio/photo3.png"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

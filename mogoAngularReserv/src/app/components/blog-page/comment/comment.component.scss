@@ -1,0 +1,30 @@
+@import "src/app/shared/scss/config";
+img
+{
+  height: 100%;
+}
+.comment {
+  & p {
+    margin-top: 20px;
+    font-family: $rob;
+    font-size: 15px;
+    max-width: 970px;
+    color: $textColor;
+    text-align: left;
+  }
+  & h6 {
+    font-family: $kaush;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 0;
+    text-align: left;
+    text-transform: capitalize;
+    &::before {
+      content: "";
+      display: inline-block;
+      border: 1px solid #f38181;
+      width: 50px;
+      margin-right: 10px;
+    }
+  }
+}

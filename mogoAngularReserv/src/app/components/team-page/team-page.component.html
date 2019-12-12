@@ -1,0 +1,20 @@
+<section>
+  <div class="conteiner">
+    <div class="section_title">
+      <h6>who we are</h6>
+      <h1>meet our team</h1>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        error, dolorem unde molestias minus eum. Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Itaque tempora dolor minus atque
+        impedit accusamus!
+      </p>
+    </div>
+    <div class="row justify-content-center" *ngIf="!flag">
+      <app-member class=" col-12  col-md-4" *ngFor="let member of members" [member]="member"></app-member>
+
+    </div>
+  </div>
+  <app-spinner *ngIf="flag"></app-spinner>
+</section>

@@ -1,0 +1,29 @@
+@import "src/app/shared/scss/config";
+.active
+{
+  border-bottom: 2px solid $fcolor ;
+  padding-bottom: 5px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 10vh;
+  background: #000000;
+  & span a {
+    font-family: $mont;
+    font-size: 30px;
+    color: $blueColor;
+    margin: 0 50px;
+  }
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0 20px;
+  & a {
+    color: $blueColor;
+  }
+}

@@ -1,0 +1,47 @@
+@import "src/app/shared/scss/config";
+
+.blog_conteiner {
+  padding: 20px;
+  &_img {
+    position: relative;
+    & img {
+      width: 100%;
+    }
+    & p {
+      position: absolute;
+      left: -15px;
+      bottom: 15px;
+      background-color: $blueColor;
+      color: #ffffff;
+      font-size: 40px;
+      padding: 10px;
+      margin: 0;
+    }
+  }
+  &_info {
+    text-align: left;
+    & h6 {
+      font-family: $mont;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    & p {
+      font-family: $rob;
+      font-size: 10px;
+      color: #999999;
+      border-bottom: 1px solid #f3ecec;
+      padding-bottom: 20px;
+    }
+    & span
+    {
+      color: $blueColor;
+      & a {
+        display: inline-block;
+        color: $blueColor;
+        border: 2px solid $blueColor;
+        padding: 5px 10px;
+      }
+    }
+  }
+}

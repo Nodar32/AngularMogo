@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="card-header">
+    <h2>{{post.title  | slice: 0: 20}}...</h2>
+    <small>{{post.date | date:'dd.MM.yyyy'}}</small>
+  </div>
+  <div>
+    <small>Author: {{post.author}}</small>
+  </div>
+  <button class="btn btn-dark" [routerLink]="['/posts', post.id]">Открыть</button>
+</div>

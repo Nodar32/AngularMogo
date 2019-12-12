@@ -1,0 +1,46 @@
+@import "src/app/shared/scss/config";
+form
+{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.formSection
+{
+  margin: 20px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input
+{
+  padding: 5px 0;
+  padding-left: 15px;
+  border: 1px solid $blueColor;
+  border-radius: 5px;
+  color: black;
+  &:focus
+  {
+    outline: none;
+  }
+}
+.btn_submit
+{
+  background: black;
+  border: 2px solid blue;
+  color: blue;
+  padding: 5px 10px;
+  margin: 50px auto;
+}
+button:disabled
+{
+  background: black;
+  color: #cccccc;
+  border: 2px solid #cccccc;
+}
+
+small {
+  color: red;
+}

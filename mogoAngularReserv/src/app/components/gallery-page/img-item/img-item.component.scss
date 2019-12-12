@@ -1,0 +1,44 @@
+@import "src/app/shared/scss/config";
+
+
+.imgCard {
+  position: relative;
+  transition: 1s;
+  width: 100%;
+  padding: 0;
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+  &:hover .zoom {
+    opacity: 0.9;
+  }
+}
+.zoom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $gradient;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  transition: 1s;
+  font-size: 30px;
+}
+.modalImg
+{
+  width: 100%;
+}
+.zoomButton
+{
+    color: #ffffff;
+    border: 2px solid $blueColor;
+    padding: 10px;
+    background: none;
+  font-size: 15px;
+}

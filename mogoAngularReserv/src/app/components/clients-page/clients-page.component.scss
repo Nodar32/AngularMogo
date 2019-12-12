@@ -1,0 +1,17 @@
+@import "src/app/shared/scss/config";
+#peopleSay {
+  min-height: 90vh;
+  position: relative;
+  background: url(src/assets/peopleSayBg.png) no-repeat center top / cover;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 2;
+    opacity: 0.8;
+  }
+}

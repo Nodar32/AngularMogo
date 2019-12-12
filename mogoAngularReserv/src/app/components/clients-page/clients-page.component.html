@@ -1,0 +1,14 @@
+<section id="peopleSay">
+  <div class="conteiner">
+    <div class="section_title">
+      <h6>Happy Clients</h6>
+      <h1>What people say</h1>
+    </div>
+    <div class="row">
+      <app-client class="col-md-6" *ngFor="let client of clients" [client] = "client"></app-client>
+    </div>
+    <app-spinner *ngIf="flag"></app-spinner>
+  </div>
+
+</section>
+

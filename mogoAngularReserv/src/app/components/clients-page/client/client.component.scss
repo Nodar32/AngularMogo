@@ -1,0 +1,29 @@
+@import "src/app/shared/scss/config";
+.feedbackConteiner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.feedbackInfo {
+  text-align: left;
+  padding: 50px;
+  & span {
+    color: #585858;
+    font-style: italic;
+    font-family: $rob;
+    font-size: 15px;
+    font-weight: 400;
+    &::after {
+      content: "";
+      display: block;
+      border: 1px solid #f38181;
+      width: 50px;
+      margin-top: 15px;
+    }
+  }
+  & p {
+    font-family: $rob;
+    font-size: 15px;
+    color: $textColor;
+  }
+}

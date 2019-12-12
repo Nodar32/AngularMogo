@@ -1,0 +1,16 @@
+<section>
+  <div class="conteiner">
+
+    <div class="section_title">
+      <h6>Our stories</h6>
+      <h1>Latest blog</h1>
+    </div>
+    <div class="row">
+      <app-blog class="col-md-4" *ngFor="let blog of blogs" [blog] = "blog"></app-blog>
+
+    </div>
+  </div>
+
+  <app-spinner *ngIf="flag"></app-spinner>
+</section>
+

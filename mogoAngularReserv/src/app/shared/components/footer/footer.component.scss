@@ -1,0 +1,104 @@
+@import "src/app/shared/scss/config";
+footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+.footer_item1 {
+  padding-right: 50px;
+  &_title {
+    text-align: left;
+    & span {
+      font-family: $mont;
+      color: #cccccc;
+      font-size: 45px;
+    }
+    & p {
+      font-family: $rob;
+      font-size: 15px;
+      color: #999999;
+    }
+  }
+  &_follow {
+    & span {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    & p {
+      border-bottom: 1px solid #cccccc;
+      padding-bottom: 10px;
+      text-align: left;
+    }
+    &_buttons {
+      display: flex;
+      align-items: center;
+      & p {
+        border: none;
+        font-family: $rob;
+        font-size: 15px;
+        color: #cccccc;
+        margin-right: 10px;
+      }
+      & a {
+        color: $blueColor;
+        margin: 0 5px;
+        font-size: 20px;
+      }
+    }
+    &_inputMail {
+      & input {
+        width: 60%;
+        padding: 10px 5px;
+        color: $textColor;
+      }
+      & button {
+        background-color: $blueColor;
+        color: #ffffff;
+        letter-spacing: 2px;
+        padding: 12px 5px;
+        text-transform: uppercase;
+        border: none;
+      }
+    }
+  }
+}
+.footer_item2 {
+  text-align: left;
+  padding-right: 50px;
+  & h6 {
+    font-family: $mont;
+    font-size: 15px;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &_blog {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    & p {
+      font-family: $mont;
+      font-size: 10px;
+      color: #333333;
+      text-transform: uppercase;
+      margin-left: 10px;
+    }
+  }
+}
+.footer_item3 {
+  text-align: left;
+  padding-right: 50px;
+  & h6 {
+    font-family: $mont;
+    font-size: 15px;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  & img {
+    padding: 2px;
+  }
+  & p {
+    font-family: $rob;
+    font-size: 10px;
+  }
+}

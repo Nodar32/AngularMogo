@@ -1,0 +1,18 @@
+<section id="portfolio">
+  <div class="container">
+    <div class="section_title">
+      <h6>What we do</h6>
+      <h1>some of our work</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        error, dolorem unde molestias minus eum. Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Itaque tempora dolor minus atque
+        impedit accusamus!
+      </p>
+    </div>
+    <div class="row justify-content-center no-gutters">
+      <app-img-item  class="col-sm-6  col-md-3" *ngFor="let image of images" [image]="image"></app-img-item>
+    </div>
+    <app-spinner *ngIf="flag"></app-spinner>
+  </div>
+</section>

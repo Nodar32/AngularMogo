@@ -1,0 +1,11 @@
+<div class="navbar">
+  <span [routerLink]="['/']"><a  [routerLink]="['/', 'admin', 'login']">MoGoAdmin</a></span>
+  <nav>
+    <ul>
+      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/']">home</a></li>
+      <li routerLinkActive="active"><a [routerLink]="['/', 'admin', 'dashboard']">Dashboard</a></li>
+      <li routerLinkActive="active"><a [routerLink]="['/', 'admin', 'create']">Create New Post</a></li>
+    </ul>
+  </nav>
+</div>
+<router-outlet></router-outlet>

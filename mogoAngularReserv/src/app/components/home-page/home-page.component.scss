@@ -1,0 +1,51 @@
+@import "src/app/shared/scss/config";
+//header
+header {
+  position: relative;
+  background: url(src/assets/headerBg.jpg) no-repeat center top / cover;
+  width: 100%;
+  height: 90vh;
+  padding-top: 40px;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $gradient;
+    z-index: 2;
+    opacity: 0.8;
+  }
+}
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  & h6 {
+    font-family: $kaush;
+    font-size: 72px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: capitalize;
+    color: $tcolor;
+  }
+  & h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+    color: $tcolor;
+  }
+}
+.lernMore {
+  border: 3px solid $tcolor;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $tcolor;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,14 @@
+<div class="memberAbout">
+  <div class="memberCard">
+    <img [src]="member.imgUrl" alt="" />
+    <div class="memberSocial">
+      <a [href]="member.fbUrl" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a [href]="member.twUrl" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a [href]="member.instUrl" target="_blank"
+      ><i class="fa fa-instagram" aria-hidden="true"></i
+      ></a>
+    </div>
+  </div>
+  <h5>{{member.author | titlecase}}</h5>
+  <p>{{member.profession | titlecase}}</p>
+</div>

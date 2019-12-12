@@ -1,0 +1,13 @@
+
+<div class="blog_conteiner">
+  <div class="blog_conteiner_img">
+    <img [src]="blog.imgUrl" alt="">
+    <p>{{blog.id}}</p>
+  </div>
+  <div class="blog_conteiner_info">
+    <h6>{{blog.title}}</h6>
+    <p>{{blog.text | slice: 0: 50}}...</p>
+    <span><i class="fa fa-eye"></i> {{blog.views}} <i class="fa fa-comments"></i> {{blog.commentsCounter}} <a [routerLink]="['/blogs/', blog.id]" class="showBlog">Open blog</a></span>
+  </div>
+</div>
+

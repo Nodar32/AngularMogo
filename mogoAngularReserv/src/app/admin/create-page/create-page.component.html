@@ -1,0 +1,26 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+
+  <div  class="formSection row">
+    <h1>Создание нового поста</h1>
+    <label for="title" class="col-md-3">Название поста:</label>
+    <input id="title"type="text" class="col-md-12" formControlName="title">
+    <div *ngIf="form.get('title').touched && form.get('title').invalid">
+      <small *ngIf="form.get('title').errors.required" >Введите название поста</small>
+      <small *ngIf="form.get('title').errors.maxlength" >Максимальная длина заголовка {{form.get('title').errors.maxlength.requiredLength}} символов! Текущее значение: {{form.get('title').errors.maxlength.actualLength}} </small>
+    </div>
+  </div>
+  <div  class="formSection">
+    <label>Контент поста:</label>
+    <quill-editor formControlName="text"></quill-editor>
+  </div>
+  <div class="formSection row">
+    <label for="author" class="col-md-3">Автор поста:</label>
+    <input id="author"type="text" class="col-md-12" formControlName="author">
+    <div *ngIf="form.get('author').touched && form.get('author').invalid">
+      <small *ngIf="form.get('author').errors.required" >Введите имя автора</small>
+      <small *ngIf="form.get('author').errors.maxlength" >Имя автора не должно привышать {{form.get('author').errors.maxlength.requiredLength}} символов! Текущее значение: {{form.get('author').errors.maxlength.actualLength}} </small>
+    </div>
+    <button class="btn_submit" type="submit"[disabled]="form.invalid">Создать пост</button>
+  </div>
+
+</form>

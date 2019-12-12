@@ -1,0 +1,23 @@
+@import "src/app/shared/scss/config";
+.servises_title {
+  margin: 100px 0;
+}
+.servises_conteiner {
+  text-align: left;
+  margin-bottom: 50px;
+  padding: 0 20px;
+  & i {
+    color: $blueColor;
+    font-size: 50px;
+  }
+  & h3 {
+    font-family: $mont;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  & p {
+    font-family: $rob;
+    font-size: 15px;
+    color: $textColor;
+  }
+}

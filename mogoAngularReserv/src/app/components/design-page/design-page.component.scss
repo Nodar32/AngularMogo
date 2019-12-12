@@ -1,0 +1,29 @@
+@import "src/app/shared/scss/config";
+#feature {
+  position: relative;
+  background: url(src/assets/featureBg.jpg) no-repeat center top / cover;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 2;
+    opacity: 0.8;
+  }
+}
+.mobileViev {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  & img {
+    width: 50%;
+    &:last-child {
+      margin-bottom: -5%;
+      margin-left: -15%;
+      width: 20%;
+    }
+  }
+}

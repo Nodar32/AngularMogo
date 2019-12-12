@@ -1,0 +1,30 @@
+<!--<div class="post" *ngIf="!flag">-->
+<!--  <div class="header">-->
+<!--    <h1>{{post.title}}</h1>-->
+<!--    <button [routerLink]="['/', 'posts']" class="btn btn-link">Post List</button>-->
+<!--  </div>-->
+<!--  <div class="info">-->
+<!--    <strong>{{post.author}}</strong>-->
+<!--    <small>{{post.date | date:'dd.MM.yyyy'}}</small>-->
+<!--  </div>-->
+<!--  <div>-->
+<!--    <quill-view-html [content]="post.text"></quill-view-html>-->
+<!--  </div>-->
+
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+<section>
+  <div class="conteiner" *ngIf="!flag">
+    <div class="section_title">
+      <h1>{{post.title}}</h1>
+      <h6>{{post.author}}</h6>
+    </div>
+    <div>
+      <quill-view-html [content]="post.text"></quill-view-html>
+    </div>
+    <small>{{post.date | date:'dd.MM.yyyy'}}</small>
+  </div>
+  <app-spinner *ngIf="flag"></app-spinner>
+</section>
+

@@ -1,0 +1,59 @@
+@import "src/app/shared/scss/config";
+.aboutImg {
+  position: relative;
+  transition: 1s;
+  margin: 10px;
+  padding: 0;
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+  &:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(149, 225, 211, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 5px 0px rgba(149, 225, 211, 1);
+    transform: translateY(-10px) translateX(-10px);
+    & .imgTitle {
+      display: flex;
+      opacity: 0.9;
+    }
+  }
+}
+.imgTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $gradient;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  transition: 1s;
+}
+
+
+#achievement {
+  background-color: $blueColor;
+  margin-top: 40px;
+}
+.counters {
+  padding: 0;
+  text-align: center;
+  border-left: 1px solid #b5eae0;
+  border-right: 1px solid #b5eae0;
+  & h3 {
+    font-family: $mont;
+    font-size: 72px;
+    color: $tcolor;
+    margin: 0;
+  }
+  & p {
+    font-family: $mont;
+    font-size: 14px;
+    color: $tcolor;
+  }
+}

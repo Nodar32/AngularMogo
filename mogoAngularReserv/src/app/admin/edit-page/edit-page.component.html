@@ -1,0 +1,17 @@
+<form *ngIf="!flag" [formGroup]="form" (ngSubmit)="submit()">
+  <div  class="formSection row">
+    <h1>Редактирование поста</h1>
+    <label for="title" class="col-md-3">Название поста:</label>
+    <input id="title" type="text" class="col-md-12" formControlName="title">
+    <div *ngIf="form.get('title').touched && form.get('title').invalid">
+      <small *ngIf="form.get('title').errors.required" >Введите название поста</small>
+      <small *ngIf="form.get('title').errors.maxlength" >Максимальная длина заголовка {{form.get('title').errors.maxlength.requiredLength}} символов! Текущее значение: {{form.get('title').errors.maxlength.actualLength}} </small>
+    </div>
+  </div>
+  <div  class="formSection">
+    <label>Контент поста:</label>
+    <quill-editor formControlName="text"></quill-editor>
+    <button class="btn_submit" type="submit" [disabled]="form.invalid">Сохранить изменения</button>
+  </div>
+</form>
+<app-spinner *ngIf="flag"></app-spinner>

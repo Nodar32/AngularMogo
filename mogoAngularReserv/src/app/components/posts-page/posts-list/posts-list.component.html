@@ -1,0 +1,14 @@
+<section>
+  <div class="conteiner">
+    <div class="section_title">
+      <h6>Our stories</h6>
+      <h1>Latest post</h1>
+    </div>
+    <input type="text" placeholder="Найти пост..." [(ngModel)]="search">
+    <div class="row">
+      <app-post class="col-md-4" *ngFor="let post of posts | searchPosts: search" [post] = "post"></app-post>
+    </div>
+  </div>
+  <app-spinner *ngIf="flag"></app-spinner>
+</section>
+

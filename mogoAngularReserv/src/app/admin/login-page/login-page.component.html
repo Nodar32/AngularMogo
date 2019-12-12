@@ -1,0 +1,40 @@
+
+<div class="wrapper">
+  <div class="formConteiner">
+    <button class="formViev" (click)="flag = true"  [ngClass]="{activate: flag}">Authorization</button>
+    <button class="formViev" (click)="flag = false"  [ngClass]="{activate: !flag}">Registracion</button>
+    <div class="authorizationForm" *ngIf="flag">
+      <form class="form form-authorization" [formGroup]="authorizationForm" (ngSubmit)="authorization()">
+        <input type="email" placeholder="Email" formControlName="email">
+        <div class="validation" *ngIf="authorizationForm.get('email').touched && authorizationForm.get('email').invalid">
+          <span *ngIf="authorizationForm.get('email').errors.required">Введите Email!</span>
+          <span *ngIf="authorizationForm.get('email').errors.email">Введите корректный Email!</span>
+        </div>
+        <input type="password" placeholder="Password" formControlName="password">
+        <div class="validation" *ngIf="authorizationForm.get('password').touched && authorizationForm.get('password').invalid">
+          <span *ngIf="authorizationForm.get('password').errors.required">Введите пароль!</span>
+        </div>
+        <button class="btn_submit" type="submit" [disabled]="authorizationForm.invalid">Войти</button>
+      </form>
+    </div>
+    <div class="registracionForm" *ngIf="!flag" [ngClass]="{active: !flag}">
+      <form class="form form-registration"  [formGroup]="registrationForm" (ngSubmit)="registration()">
+        <input type="text" placeholder="Username" formControlName="userName">
+        <div class="validation" *ngIf="registrationForm.get('userName').touched && registrationForm.get('userName').invalid">
+          <span *ngIf="registrationForm.get('userName').errors.required">Введите имя пользователя!</span>
+        </div>
+        <input type="email" placeholder="Email" formControlName="email">
+        <div class="validation" *ngIf="registrationForm.get('email').touched && registrationForm.get('email').invalid">
+          <span *ngIf="registrationForm.get('email').errors.required">Введите имя пользователя!</span>
+          <span *ngIf="registrationForm.get('email').errors.email">Введите корректный Email!</span>
+        </div>
+        <input type="password" placeholder="Password" formControlName="password">
+        <div class="validation" *ngIf="registrationForm.get('password').touched && registrationForm.get('password').invalid">
+          <span *ngIf="registrationForm.get('password').errors.required">Введите пароль!</span>
+          <span *ngIf="registrationForm.get('password').errors.minlength">Минимальное колличество символов: {{registrationForm.get('password').errors.minlength.requiredLength}}</span>
+        </div>
+        <button class="btn_submit"type="submit" [disabled]="registrationForm.invalid">Регистрация</button>
+      </form>
+    </div>
+  </div>
+</div>
